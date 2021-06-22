@@ -10,7 +10,7 @@ class PostController extends Controller
     public function __construct()
     {
         $this->middleware('permission:create post')->only('create');
-        // $this->middleware('permission:edit post')->only('edit');
+        $this->middleware('permission:edit post')->only('edit');
     }
 
     /**
