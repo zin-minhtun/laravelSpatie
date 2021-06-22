@@ -7,6 +7,12 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('permission:create post')->only('create');
+        $this->middleware('permission:edit post')->only('edit');
+    }
+
     /**
      * Display a listing of the resource.
      *

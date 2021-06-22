@@ -22,7 +22,9 @@
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Title</th>
-                    <th>Action</th>
+                    @can('edit post')
+                        <th>Action</th>
+                    @endcan
                 </tr>
             </thead>
             <tbody>
