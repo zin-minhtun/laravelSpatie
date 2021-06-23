@@ -16,7 +16,7 @@
             </div>
         @endif
 
-        {{-- Hello I am a new born for this repository --}}
+        {{-- Hello I am a new born for this --}}
         {{-- Posts Table --}}
         <table class="table">
             <thead>
