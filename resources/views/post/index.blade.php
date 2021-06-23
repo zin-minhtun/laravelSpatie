@@ -16,10 +16,6 @@
             </div>
         @endif
 
-        {{-- Hello I am a new born for this --}}
-        {{-- Hello I am a new born for this --}}
-        {{-- Hello I am a new born for this --}}
-        {{-- Posts Table --}}
         <table class="table">
             <thead>
                 <tr>
